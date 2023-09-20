@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: start;
+    text-transform: none;
+    background: #FFF;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    padding: 29px 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #69c;
+    text-decoration: underline double #69c;
+}
+
+#home {
+    padding: 267px 0px 292px 0px;
+    border: 1px solid #000;
+    background: url('../img/coffee_titul.jpg') no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.image_line {
+    width: 80px;
+    height: 10px;
+    background: #817070;
+}
+
+#story {
+    padding: 60px 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.story_box {
+    padding-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.story_img {
+    width: 50%;
+}
+
+#blog {
+    padding: 60px 102px;
+    background: #EFEFEF;
+}
+
+.blog_box {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+article {
+    padding: 20px 20px 46px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0 0 30%;
+    gap: 24px;
+    background: #FFF;
+}
+
+article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.blog_img {
+    width: 100%;
+}
+
+article p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: start;
+}
+
+#subscribe {
+    padding: 60px 0px;
+    background: #817070;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 13px 94px;
+    border: 3px solid #FFF;
+    background: #817070;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+input:hover {
+    box-shadow: 0 0 20px black;
+}
+
+button {
+    padding: 13px 34px;
+    border: 3px solid #FFF;
+    color: #817070;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d49aa;
+    color: #FFF;
+}
+
+footer {
+    width: 100%;
+    padding: 28px 0px 14px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
